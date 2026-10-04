@@ -1,0 +1,36 @@
+/* styling using id of elements */
+#article1{
+    color:rgb(32, 107, 107);
+    font-size: medium;
+    background-color:gainsboro;
+}
+#article2{
+    font-size:small;
+    color:blue;
+    background-color:antiquewhite
+}
+/* styling using tags  */
+h1{
+    font-size:large;
+    color:rgb(166, 96, 4);
+    text-align: center;
+}
+/* styling using class  */
+.paraclass{
+    background-color: rgb(244, 244, 160);
+}
+.paraclass2{
+    background-color: rgb(226, 130, 130);
+}
+
+/* styling using group */
+
+p,article{
+    width:400px;
+}
+
+/* since two more elements or tags can have same class so, to style a specific element with class we use elementName.className or tagName.className */
+p.paraclass{
+    text-align:center ;
+
+}
