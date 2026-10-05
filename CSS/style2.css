@@ -1,36 +1,30 @@
-/* styling using id of elements */
-#article1{
-    color:rgb(32, 107, 107);
-    font-size: medium;
-    background-color:gainsboro;
+h2{
+     font-family: cursive;
+     text-align: center;
+     font-style: italic;
+} 
+p{
+    font-size: large;
+    font-weight:800;
+    line-height:20px;
+    font-family: "Caveat", cursive;
+    
 }
-#article2{
-    font-size:small;
-    color:blue;
-    background-color:antiquewhite
+#paraL{
+     /* color used with the help of hsl value */
+    background-color: hsl(93, 90%, 60%);
 }
-/* styling using tags  */
-h1{
-    font-size:large;
-    color:rgb(166, 96, 4);
-    text-align: center;
-}
-/* styling using class  */
-.paraclass{
-    background-color: rgb(244, 244, 160);
-}
-.paraclass2{
-    background-color: rgb(226, 130, 130);
+#para1{
+    /* color used with the help of hexa decimal value */
+    background-color: #f0e7be97 ;
 }
 
-/* styling using group */
-
-p,article{
-    width:400px;
+#para2{
+    background-color: rgba(77, 182, 243, 0.395);
 }
-
-/* since two more elements or tags can have same class so, to style a specific element with class we use elementName.className or tagName.className */
-p.paraclass{
-    text-align:center ;
-
-}
+#para3{
+    /* with the help of rgba we can even set transparency of color */
+    background-color: rgba(139, 222, 97, 0.511);
+    /* this is just rgb */
+    background-color: rgb(203, 203, 91);
+} 
