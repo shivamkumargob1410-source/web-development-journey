@@ -1,3 +1,10 @@
+/* universal selector */
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
 h1{
     background-color: rgb(243, 187, 148);
     text-align: center;
@@ -14,20 +21,38 @@ h1{
     /* border-left: solid yellowgreen 5px; */
     border: solid black 3px;
     border-radius: 5px;
+    border-top-left-radius: 30px;
     width:500px;
-    margin:auto;
-    margin-bottom: 30px;
-    height:70px
+    /* margin:auto; */
+    /* margin-bottom: 30px; */
+    /* height:70px */
 
 
+}
+span {
+    background-color: aquamarine;
+    border: solid black 3px;
+    border-radius: 5px;
+    width: 350px;
+    height: 200px;
 }
 .para1{
     background-color: cadetblue;
     border: solid black 3px;
     border-radius: 5px;
     width:400px;
-    margin:auto;
-    margin-bottom: 20px;
+    /* margin usage */
+    /* margin:50px; */
+    /* margin: 10px 200px 60px 90px; top right bottom left  */
+    /* padding usage */
+    /* padding:90px; */
+    /* padding-left: 30px;
+    padding-right: 100px;
+    padding-top: 20px;
+    padding-bottom: 30px; */
+    /* short hand notation */
+    /* padding: 30px 10px 50px 1000px;  top right bottom left */
+    /* padding: 30px 50px;  top bottom && left right  */
 }
 .para2{
     background-color: rgb(168, 177, 75);
@@ -35,13 +60,13 @@ h1{
     border-radius: 5px;
     width:400px;
     
-    margin:auto;
-    margin-bottom: 20px;
+    /* margin:auto;
+    margin-bottom: 20px; */
 }
 .para3{
     background-color: rgb(250, 123, 248);
     border: solid black 3px;
     border-radius: 5px;
     width:400px;
-    margin:auto;
+    /* margin:auto; */
 }

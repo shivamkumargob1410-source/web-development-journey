@@ -1,0 +1,33 @@
+
+/* universal selector */
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box ;
+}
+
+/* .box0{
+    border:1px solid red;
+    width: 200px;
+    height:20px;
+    margin:25px;
+    padding:20px;
+} */
+
+/* .box{
+    display:inline;
+   width:300px;
+   height:300px;
+   border: 1px solid black;
+   padding:100px;
+
+} */
+
+span{
+    border:2px solid green;
+    width:280px;
+    height:400px;
+    margin:10px;
+    padding:50px;
+    display:inline-block;
+}
